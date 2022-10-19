@@ -1,4 +1,4 @@
-const houses = new Map([
+export const houses = new Map([
   ['g', 'Gryffindor'],
   ['h', 'Hufflepuff'],
   ['r', 'Ravenclaw'],
@@ -111,7 +111,7 @@ const c5 = {
   ]
 }
 
-const cards = [c1,c2,c3,c4,c5]
+export const cardsData = [c1,c2,c3,c4,c5]
 
 // c6: final card
 // final card should display once the last question is answered and next button is clicked
