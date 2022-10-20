@@ -1,9 +1,19 @@
 import {header , jumbotron, footer } from './static.js';
 import { getCard, getFinalCard } from './cards.js';
-import { cardsData } from '../data/cards_data.js';
+// import { cardsData } from '../data/cards_data.js';
 
-$(function() {
-
+$(async function() {
+  const data = await $.get('https://635096c03e9fa1244e49246d.mockapi.io/api/questions')
+  const cardsData = data.reduce((acc, cur) => {
+    if (cur.question_text === acc[cur.question_number - 1].question) {
+      acc[cur.question_number - 1].answers.push({text: cur.answer_text, value: cur.answer_value})
+    }
+    else {
+      acc[cur.question_number - 1].question = cur.question_text
+      acc[cur.question_number - 1].answers = [{text: cur.answer_text, value: cur.answer_value}]
+    }
+    return acc
+  }, [{},{},{},{},{}])
   // state
   let cardIndex = 0;
   const resArray = [null, null, null, null, null]

@@ -1,0 +1,122 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "Which animal do you like the most?",
+    "answer_text": "Eagle",
+    "answer_value": "Ravenclaw"
+  },
+  {
+    "question_number": 1,
+    "question_text": "Which animal do you like the most?",
+    "answer_text": "Lion",
+    "answer_value": "Gryffindor"
+  },
+  {
+    "question_number": 1,
+    "question_text": "Which animal do you like the most?",
+    "answer_text": "Badger",
+    "answer_value": "Hufflepuff"
+  },
+  {
+    "question_number": 1,
+    "question_text": "Which animal do you like the most?",
+    "answer_text": "Serpent",
+    "answer_value": "Slytherin"
+  },
+  {
+    "question_number": 2,
+    "question_text": "Which attribute do you value most?",
+    "answer_text": "Dedication",
+    "answer_value": "Hufflepuff"
+  },
+  {
+    "question_number": 2,
+    "question_text": "Which attribute do you value most?",
+    "answer_text": "Ambition",
+    "answer_value": "Slytherin"
+  },
+  {
+    "question_number":  2,
+    "question_text": "Which attribute do you value most?",
+    "answer_text": "Bravery",
+    "answer_value": "Gryffindor"
+  },
+  {
+    "question_number":  2,
+    "question_text": "Which attribute do you value most?",
+    "answer_text": "Intelligence",
+    "answer_value": "Ravenclaw"
+  },
+  {
+    "question_number":  3,
+    "question_text": "Which is your favorite color?",
+    "answer_text": "Green",
+    "answer_value": "Slytherin"
+  },
+  {
+    "question_number":  3,
+    "question_text": "Which is your favorite color?",
+    "answer_text": "Yellow",
+    "answer_value": "Hufflepuff"
+  },
+  {
+    "question_number":  3,
+    "question_text": "Which is your favorite color?",
+    "answer_text": "Blue",
+    "answer_value": "Ravenclaw"
+  },
+  {
+    "question_number":  3,
+    "question_text": "Which is your favorite color?",
+    "answer_text": "Red",
+    "answer_value": "Gryffindor"
+  },
+  {
+    "question_number": 4,
+    "question_text": "Which of the following classic elements do you prefer?",
+    "answer_text": "Fire",
+    "answer_value": "Gryffindor"
+  },
+  {
+    "question_number": 4,
+    "question_text": "Which of the following classic elements do you prefer?",
+    "answer_text": "Air",
+    "answer_value": "Ravenclaw"
+  },
+  {
+    "question_number": 4,
+    "question_text": "Which of the following classic elements do you prefer?",
+    "answer_text": "Water",
+    "answer_value": "Slytherin"
+  },
+  {
+    "question_number": 4,
+    "question_text": "Which of the following classic elements do you prefer?",
+    "answer_text": "Earth",
+    "answer_value": "Hufflepuff"
+  },
+  {
+    "question_number": 5,
+    "question_text": "What is your weakness?",
+    "answer_text": "Naivety",
+    "answer_value": "Hufflepuff"
+  },
+  {
+    "question_number": 5,
+    "question_text": "What is your weakness?",
+    "answer_text": "Insecurity",
+    "answer_value": "Slytherin"
+  },
+  {
+    "question_number": 5,
+    "question_text": "What is your weakness?",
+    "answer_text": "Arrogance",
+    "answer_value": "Ravenclaw"
+  },
+  {
+    "question_number": 5,
+    "question_text": "What is your weakness?",
+    "answer_text": "Recklessness",
+    "answer_value": "Gryffindor"
+  }
+  ]
